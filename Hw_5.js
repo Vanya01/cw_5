@@ -18,7 +18,6 @@ let fourth  = document.getElementById('rules')
 fourth.innerText = ' New text here'
 console.log(fourth)
 // -- змініть кожному елементу колір фону на червоний - DONE
-
    let five = document.body.children
    for (let rebild of five){
        rebild.style.background = 'red';
