@@ -43,7 +43,6 @@ for (let seventh__ of seventh){
 let eight = document.getElementsByTagName('a')
 for (let eight__ of eight){
     eight__.classList.add('element_XXX')
-
 }
 
 // i) отримує всі елементи 'sub-header' та змінює колір фону. Фон отримати з prompt()
@@ -52,7 +51,14 @@ for ( let ninth__ of ninth){
     ninth__.style.background =prompt()
 }
 // j) отримує всі елементи 'sub-header' та змінює колір тексту у видаку якщо текст елемнту = content 2 segment . Колір отримати з prompt()
-// k) отримує елемент з класом content_1 та заміняє  в ньому тест на довільний. Текст отримати з prompt()
+let tenth = document.getElementsByClassName('sub-header')
+for ( let tenth__ of tenth){
+    if(tenth__ === tenth[1]){
+        tenth__.style.color =prompt()}
+}
+// k) отримує елемент з класом content_1 та заміняє  в ньому текст на довільний. Текст отримати з prompt()
+let content1 = document.getElementsByClassName('content_1')
+content1[0].innerText = prompt()
 
 // l) отримати елементи p та змінити їм padding на 20px
 let oneMore = document.getElementsByTagName('p')
